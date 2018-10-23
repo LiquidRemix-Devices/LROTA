@@ -1,64 +1,37 @@
-Liquid Remix 10.0.1-20181015-OFFICIAL for Asus Zenfone Max Pro M1
+Liquid Remix 10.0.1-20181023-OFFICIAL for Asus Zenfone Max Pro M1
 
-- Liquid Version bumped to 10.0.1
+- Added Now Playing(MIND Y'all drains a lot of battery, enable at your own wish)
 - Framework base bug fixes and improvements
-- Fixed Settings app strings mixup after dirty flashes
-- Lounge: All new animations,ambient and weather settings
-- Added system wide GoogleSans fonts
-- Advanced reboot option in power menu was made more dynamic
-- Three finger screenshot gesture
-- Added Auto brightness toggle on qs pannel
-- Add CarbonGestures
-- Add Statusbar Clock and Carrier Label color
-- Lockscreen Clock Widget Fonts
-- Data disabled icon switch
-- StatusbarClock: date right/left position
-- Smart Pulldown
-- Add Quick Settings Pulldown options
-- Allow tuning ambient display with sensors
-- Hide arrows in network traffic indicators
-- Pocket judge
-- Statusbar Clock Font styles
+- Added Now Playing QS tile
+- Added rounded searchbar in settings also fixed theming for it
+- New Accent Picker and more accents
+- Added Pixel navbar animation toggle
+- Fixed powermenu not showing up on lockscreen
+- Fixed Force Expanded notifications toggle
+- Added Proximity check on wake
+- Added systemUI restart on theme change
+- Added Optimizations
+- Added a few scrolling improvements
+- Fixed Battery settings FC
+- Updated Launcher3
+- Added toggle to enable google feed support on Launcher3
+- Added rounded recents on Launcher3
+- Added custom icon support on Launcher3
+- Added Custom QS styles
+- Added theme tile
+- Added volume tones and toggle back
 - Statusbar weather
 - Config to hide status bar on lock screen
-- Allow to switch back to pre P mobile type icon style
-- Carrier Label font styles
-- Add back battery bar
-- Lockscreen weather view
-- Add option to disable auto brightness icon in brightness slider
-- Add Flashlight blink on incoming calls
-- Launch default music player on headset connect
-- Add lockscreen visualizer toggle
-- Visualizer customizations
-- Custom Carrier Label & Carrier Label Placement
-- Per-app cellular data and wifi restrictions
-- ADB over network
-- InstalledApp: show link to Google Play
-- Add back increasing ring feature
-- Lockscreen rotation config support
-- Option to hide Adb notification icon
-- Force Expanded Notifications
-- Add animations to qs tiles
-- Screen off animations
-- Ambient Display battery toggle
-- Sensor block per-package switch
-- Unlock with fingerprint after reboot
-- Option to disable brightness slider
-- Hide power menu on secure lockscreen
-- Add ability to disable lockscreen ripple
-- Toast icon switch
-- Disable Quick Settings on secure lockscreen
-- Night Light brightness mode options
-- AppOps: show/hide app type and allow/deny counters
-- Add package name to installed app details
-- Lock pattern grid size
-- Show bluetooth battery status when available
-- Check our github for more changes
+- Brought back CPU temperature to CPU info overlay
+- Added option to allow QS detail view
+- Fixed crash in formatted string with date on right 
+- Added exFAT support
+- Updated few stock drawables
+- Fixed Connection to hidden WiFI 
+- Merged CAF tags in a lot of repo's to fix various stuff
+- For more changes check our github!
 
-Device Specific:
-- Sync with OTA 331
-- Pass CTS profile on safetynet check
-- Increase output sound and in-call volume
-- Enable spectrum support
-- Stock kernel merged to Linux 4.4.161
-- No more UC on stock kernel
+Device specific
+- Rebase kernel into CAF tag LA.UM.7.2.r1-05100-sdm660.0 based on android 9.0.0
+- Merge kernel with Linux 4.4.162
+- More increasing audio output
