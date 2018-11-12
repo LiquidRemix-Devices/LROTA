@@ -1,0 +1,689 @@
+=======================
+     11-11-2018
+=======================
+
+
+=======================
+     11-08-2018
+=======================
+
+
+   * external/mksh/
+d793597 mksh: Build a static library
+
+   * frameworks/base/
+05e7935c06c GoogleAudio: update Pixel sounds from Pixel 2 Pie factory image
+
+   * frameworks/base/
+0de7814ae90 Fixes crash when getting panel before setting components
+5eee6a15888 SystemUI: don't add already attached qs tile views
+38960b94aa0 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Dialer/
+2f60259fb res: Fix malformed XML
+ca425b616 Allow call recording for Bulgaria.
+82e080c53 Allow call recording for Belgium
+b286b3865 Allow call recording for Austria
+
+   * packages/apps/Jelly/
+f44d547 Jelly: Fix shortcut creation for websites without favicon
+
+   * packages/apps/Settings/
+d72cd0cf3a Merge tag 'android-9.0.0_r16' into pie
+
+   * vendor/google/
+eb29daa Add SoundPicker
+
+=======================
+     11-10-2018
+=======================
+
+
+   * build/make/
+67d5f9889 build: Introduce SubstratumHelperService
+
+   * device/google/taimen/
+1256d40 do not use AOSP ringtone picker
+d1dc54f add maintainer to build.prop
+
+=======================
+     11-07-2018
+=======================
+
+   * art/
+cf12ba8711 build: disable ART debugging
+
+   * bionic/
+4aefc3ffb Merge tag 'android-9.0.0_r16' into pie
+3edf560f3 Revert "linker: Make platform text relocations denial optional"
+a66782622 bionic: Use legacy pthread_mutex_init() behavior on pre-P API levels
+
+   * build/make/
+6f2da9cd0 Merge tag 'android-9.0.0_r16' into pie
+ce7276d70 dex2oat: disable multithreading for WSL
+4731e9f1f Add detection for WSL
+e4f0e20f6 core_base: Remove libnfc_ndef from PRODUCT_PACKAGES
+9f8b53c89 Add PRODUCT_USE_LOGICAL_PARTITIONS
+
+   * device/google/taimen/
+f3fbf6a Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/device/google/taimen into pie
+1d20f76 taimen: update fingerprint PQ1A.181105.017.A1
+
+   * device/google/wahoo/
+b597137 Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/device/google/wahoo into pie
+
+   * device/qcom/sepolicy/
+4a6635ae sepolicy: Allow perf HAL to set freq props
+
+   * external/perfetto/
+7690fb4f Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/base/
+95deacff685 base: Fix Lockscreen clock values[1/2]
+cb5691bb22c Phone ringtone setting for Multi SIM device
+b61061fdad7 Themes: Remove color spans when using config_useDarkBgNotificationIconTinting
+a2228e3a0d4 Themes: Add Theme.DeviceDefault.Resolver.Exposed
+290d3cb2af0 Themes: add bool to optimize notification icon colors on dark backgrounds
+a00e97b44af Themes: Expose notification icon colors
+cad1b2d07a5 Themes: Set UserIcons tintMode to SRC_ATOP
+f5dc385af41 Themes: Expose QS tiles and label colors
+aa693c8a37a Themes: SystemUI: expose screen pinning colors
+f0dc8a60298 Themes: SystemUI: Expose QS edit item decoration background color
+816203fa600 Themes: Allow Permission Icons to be fully themed
+19a0e798e88 Themes: Allow Immersive cling colors to be fully themed
+bb6405a5b2a Themes: Expose resolver hardcoded colors
+60d752b21af Themes: Expose toast & tooltip text colors for themes
+2174cc64240 Themes: Expose Keyguard affordance circle background
+98a67d6d1dc Themes: Allow volume slider and thumb to work with custom images.
+5ce6a3a99d8 Themes: Expose Screenshot flash and background colors
+8747ed659e5 Themes: Expose Keyboard Shortcuts Dialog
+75fccad8c36 Themes: graphics: ADB "N" icon compatible with OMS7
+44d54138d4e Themes: SystemUI: Expose switch bar title
+e922b879a5e Themes: Allow Navbar ripple color to be themed
+5901b1fb05f Fix current formating on lockscreen for devices, that report directly in Ampere. Shamelessly extracted from:   base: Lockscreen Charging info  (3/3)   by: xyyx <xyyx@mail.ru>
+8c64817e3d1 OMS: handle target or overlay package disabled
+2c2021f951d OMS: try harder not to update assets if nothing changed
+3a8e12873ef SubstratumService: Rewrite installation method for Pie InstallSession API
+5b9dbb3e800 Unbreak public api by hiding substratum interfaces
+a8d275ec959 Pie OMS: allow non-system overlays from Substratum
+bb97177803b SubstratumService: Refactor & cleanup according to AOSP conventions
+5b6571d2887 base: modify/define custom overlay management
+978dafd0430 SubstratumService: unify permissions
+9022830738e SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission
+0118ca70283 base: Introduce SubstratumService
+d00873b37f4 OMS: StrictMode and files under /data/system/theme/
+c95477d4f34 Hold "volume up" during boot to disable all overlays
+0892073b220 ThemeSafety: Introduce App Crash Intent
+1c387bb533a ApplicationsState: add filter for Substratum overlays [2/2]
+a17cc0125ee Extras: Add dynamic theme sound effects support
+67a3b65e93d Extras: Add dynamic theme shutdown and boot animation support
+c0b6d4f3b22 wifi: Add settings to allow delay_disconnect if needed.
+4d57ac57cf4 Add WIFI_COUNTRY_CODE_CHANGED_ACTION broadcast.
+1b0f415ff98 BatteryMeterView: Forced show percent in PowerSave
+fbb1a432e3e QS footer layout improvements
+77ff5ea80ab Statusbar fix operator name
+6612d175f6f BatteryMeterView: Fix glitch with percents
+7c94290a0d1 Decrease animation durations
+1d66ad35475 Add VOLTE icon toggle [1/2]
+cee1f0eec38 base: catch what you cant explain
+9b718485c3b KernelWakelockReader: stop the panic
+07db3c32c3c DoubletapPowerForCamera disabled by default [2/2]
+abe92c0f622 Allow dismiss notifications with FP left/right swipe [1/2]
+adf56ddc126 Notifications: Publish binder service for lights
+a0aa8a3d80a Allow to set a full gesture navbar (swipe left for back action) [1/2]
+e79b712c398 Framework: Remove some methods from boot image profile
+2d85de508bd Fix issue which exception happens with ExifInterface for HEIF content
+c35a9ef3ae9 Change caught exception in MediaScanner when ExifInterface is created
+081adc21f1d ExifInterface: Avoid infinite loop on stream seeking failed
+27b3745ab97 platform priv-app-permissions: update used development/tools/privapp_permissions/privapp_permissions.py script
+de0d44aaeac Remove NotificationVisibility storage pool
+7aa148c3288 Fix data source for HEIF exif extractor
+621ef5c2402 Make all activities resizable
+e48c7c237e9 base: disable extra check for FLAG_WINDOW_IS_OBSCURED in adb auth
+4135dbd06d3 Wallpaper is half black after rotating quickly
+5b810f38d75 Fix VOLTE icon color on Light statusbar
+e4bb7566d43 Separate Notification & Ring Volume
+eb92dd99506 storage: Set all sdcards to visible
+e233e13e7c0 Prevent NFE in SystemUI when parsing invalid int
+ba081e99abe Allow screen unpinning on devices without navbar
+e692d43e216 Fix UsbDeviceManager null object reference
+b3e04308bb5 Dont RIP the lockscreen charging indication
+54cc318f78f Add VOLTE icon
+ff3db9ed4af Cleanup brightness slider toggle [1/2]
+
+   * frameworks/av/
+d51f0d27d Merge tag 'android-9.0.0_r16' into pie
+
+   * kernel/google/wahoo/
+69afacda815f Merge branch 'pie-qpr1' of https://github.com/nathanchance/wahoo into pie
+6c9a2af8ce44 Merge remote-tracking branch 'als/android-msm-wahoo-4.4' into pie-qpr1
+20037a92cae0 Merge 4.4.163 into android-msm-wahoo-4.4
+7a4269707deb Linux 4.4.163
+8474c9b8cc8b x86/time: Correct the attribute on jiffies' definition
+80ab1e24e2c0 l2tp: hold tunnel socket when handling control frames in l2tp_ip and l2tp_ip6
+8a1d3de19b0a cpuidle: Do not access cpuidle_devices when !CONFIG_CPU_IDLE
+74ede0af32f5 x86/percpu: Fix this_cpu_read()
+4a2b54a750bf sched/fair: Fix throttle_list starvation with low CFS quota
+c057f7581524 Input: elan_i2c - add ACPI ID for Lenovo IdeaPad 330-15IGM
+506617d92fc3 USB: fix the usbfs flag sanitization for control transfers
+87f8db65811b usb: gadget: storage: Fix Spectre v1 vulnerability
+17275e092a01 cdc-acm: correct counting of UART states in serial state notification
+17eb02cc2692 IB/ucm: Fix Spectre v1 vulnerability
+6ede39a8e1f6 RDMA/ucma: Fix Spectre v1 vulnerability
+3700bfc36c3c ptp: fix Spectre v1 vulnerability
+d1ce094c3c90 cachefiles: fix the race between cachefiles_bury_object() and rmdir(2)
+f2adb1f6f9d6 ahci: don't ignore result code of ahci_reset_controller()
+333de2f4131e crypto: shash - Fix a sleep-in-atomic bug in shash_setkey_unaligned
+2e3ae534fb98 mremap: properly flush TLB before releasing the page
+abd46fca025c rtnetlink: Disallow FDB configuration for non-Ethernet device
+628a149b00d1 vhost: Fix Spectre V1 vulnerability
+8de8589c09dc net: drop skb on failure in ip_check_defrag()
+fee37f15abcc sctp: fix race on sctp_id2asoc
+104ed9e3d126 r8169: fix NAPI handling under high load
+d5df0bdcceba net: stmmac: Fix stmmac_mdio_reset() when building stmmac as modules
+98528072a2a9 net: socket: fix a missing-check bug
+7fc851d0f813 net: sched: gred: pass the right attribute to gred_change_table_def()
+97749034bdb4 net/ipv6: Fix index counter for unicast addresses in in6_dump_addrs
+2647feb650d7 ipv6/ndisc: Preserve IPv6 control buffer if protocol error handlers are called
+ef1cb6b06b39 ipv6: mcast: fix a use-after-free in inet6_mc_check
+4100be3e8177 net: bridge: remove ipv6 zero address check in mcast queries
+a1519237965f bridge: do not add port to router list when receives query with source 0.0.0.0
+6f52608e74f3 perf tools: Disable parallelism for 'make clean'
+25e2243ad203 mtd: spi-nor: Add support for is25wp series chips
+fa2075baa95c fs/fat/fatent.c: add cond_resched() to fat_count_free_clusters()
+55df64d96155 ARM: dts: imx53-qsb: disable 1.2GHz OPP
+fbba23bb4071 MIPS: DEC: Fix an int-handler.S CPU_DADDI_WORKAROUNDS regression
+a5ce9639fc79 igb: Remove superfluous reset to PHY and page 0 selection
+0f951e1a4186 MIPS: microMIPS: Fix decoding of swsp16 instruction
+83aa7d13df9f scsi: aacraid: Fix typo in blink status
+b1f4be0ee470 bonding: avoid defaulting hard_header_len to ETH_HLEN on slave removal
+1bd2b909fd45 PM / devfreq: tegra: fix error return code in tegra_devfreq_probe()
+dfb3a6a31fd0 ASoC: spear: fix error return code in spdif_in_probe()
+87c7239cde19 spi: xlp: fix error return code in xlp_spi_probe()
+61d2a3e63bc2 spi/bcm63xx: fix error return code in bcm63xx_spi_probe()
+f46b1dc562a5 MIPS: Handle non word sized instructions when examining frame
+8025a41779eb spi/bcm63xx-hspi: fix error return code in bcm63xx_hsspi_probe()
+18747e4caac9 usb: dwc3: omap: fix error return code in dwc3_omap_probe()
+fd5939e73ea7 usb: ehci-omap: fix error return code in ehci_hcd_omap_probe()
+047719209751 usb: imx21-hcd: fix error return code in imx21_probe()
+7f71f461af4a gpio: msic: fix error return code in platform_msic_gpio_probe()
+20d01c513f8d sparc64: Fix exception handling in UltraSPARC-III memcpy.
+b99152a593de gpu: host1x: fix error return code in host1x_probe()
+cc014084cb85 sparc64 mm: Fix more TSB sizing issues
+9954f1884eec video: fbdev: pxa3xx_gcu: fix error return code in pxa3xx_gcu_probe()
+27e13827973e tty: serial: sprd: fix error return code in sprd_probe()
+414fb21bd5e0 l2tp: hold socket before dropping lock in l2tp_ip{, 6}_recv()
+44656b939099 brcmfmac: Fix glom_skb leak in brcmf_sdiod_recv_chain
+02bc5312bb66 gro: Allow tunnel stacking in the case of FOU/GUE
+152368987f18 vti6: flush x-netns xfrm cache when vti interface is removed
+c21f80e9661b ALSA: timer: Fix zero-division by continue of uninitialized instance
+83aacb9cf479 ixgbe: Correct X550EM_x revision check
+83662744dcf2 ixgbe: fix RSS limit for X550
+fcac753bf156 net/mlx5e: Correctly handle RSS indirection table when changing number of channels
+40e9abaac653 net/mlx5e: Fix LRO modify
+c97383a60e49 ixgbevf: Fix handling of NAPI budget when multiple queues are enabled per vector
+1b6a863ff29c fuse: Dont call set_page_dirty_lock() for ITER_BVEC pages for async_dio
+4a3948cb6da4 drm/nouveau/fbcon: fix oops without fbdev emulation
+e25dc63aa366 bpf: generally move prog destruction to RCU deferral
+75c8542375a1 usb-storage: fix bogus hardware error messages for ATA pass-thru devices
+ab0b3b9dbf55 sch_red: update backlog as well
+c300313d484d sparc/pci: Refactor dev_archdata initialization into pci_init_dev_archdata
+d896b9f298af scsi: Add STARGET_CREATED_REMOVE state to scsi_target_state
+9e9fe58a92a4 xfrm: Clear sk_dst_cache when applying per-socket policy.
+db769a03103b arm64: Fix potential race with hardware DBM in ptep_set_access_flags()
+22979776093a CIFS: handle guest access errors to Windows shares
+796c9c018b9a ASoC: wm8940: Enable cache usage to fix crashes on resume
+f629104427a6 ASoC: ak4613: Enable cache usage to fix crashes on resume
+1c84d14eb7f4 MIPS: Fix FCSR Cause bit handling for correct SIGFPE issue
+af521c7f828f usbvision: revert commit 588afcc1
+5796c70e5b1d perf/core: Don't leak event in the syscall error path
+93e8e691675a aacraid: Start adapter after updating number of MSIX vectors
+92fe37c0f09c x86/PCI: Mark Broadwell-EP Home Agent 1 as having non-compliant BARs
+c447410b6dfa tpm: fix: return rc when devm_add_action() fails
+c8a5f83fa43e thermal: allow u8500-thermal driver to be a module
+90f9ed93549e thermal: allow spear-thermal driver to be a module
+c1504091b980 btrfs: don't create or leak aliased root while cleaning up orphans
+137b1ce318f0 sched/cgroup: Fix cgroup entity load tracking tear-down
+53025e7f5667 um: Avoid longjmp/setjmp symbol clashes with libpthread.a
+274337f8da92 ipv6: orphan skbs in reassembly unit
+61918dbc7efe net/mlx4_en: Resolve dividing by zero in 32-bit system
+80176161f451 af_iucv: Move sockaddr length checks to before accessing sa_family in bind and connect handlers
+11eea0569806 radix-tree: fix radix_tree_iter_retry() for tagged iterators.
+9903f3abf2a3 x86/mm/pat: Prevent hang during boot when mapping pages
+011859fdb476 ARM: dts: apq8064: add ahci ports-implemented mask
+70b3d6c5aa71 tracing: Skip more functions when doing stack tracing of events
+6b3d1619c1c8 ser_gigaset: use container_of() instead of detour
+ca4a744b1828 net: drop write-only stack variable
+997a4944ce4f ipv6: suppress sparse warnings in IP6_ECN_set_ce()
+9aae17f851e2 KEYS: put keyring if install_session_keyring_to_cred() fails
+6596d0ab8c60 net: cxgb3_main: fix a missing-check bug
+4f0336a8a008 perf/ring_buffer: Prevent concurent ring buffer access
+863fdd166500 smsc95xx: Check for Wake-on-LAN modes
+66e43f427d5d smsc75xx: Check for Wake-on-LAN modes
+2bb181d8a8ec r8152: Check for supported Wake-on-LAN Modes
+24665cbd768a sr9800: Check for supported Wake-on-LAN modes
+04d846cddb4a lan78xx: Check for supported Wake-on-LAN modes
+f3d71a323f51 ax88179_178a: Check for supported Wake-on-LAN modes
+644d1918531b asix: Check for supported Wake-on-LAN modes
+df2d090bc5df pxa168fb: prepare the clock
+b0c52fbff860 Bluetooth: SMP: fix crash in unpairing
+6879c047ae6e mac80211_hwsim: do not omit multicast announce of first added radio
+5217bec5a6e7 xfrm: validate template mode
+f4c24fd3b691 ARM: 8799/1: mm: fix pci_ioremap_io() offset check
+db420bc4b798 cfg80211: reg: Init wiphy_idx in regulatory_hint_core()
+7402bc9ca983 mac80211: Always report TX status
+4e16c61e87a1 xfrm6: call kfree_skb when skb is toobig
+5ce93bd4cc02 xfrm: Validate address prefix lengths in the xfrm selector.
+
+   * frameworks/native/
+bf9e87117 Merge tag 'android-9.0.0_r16' into pie
+967cac4ee Add vendor version for libgui
+
+   * frameworks/opt/net/ims/
+abfded4 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/opt/net/wifi/
+4ae5b2410 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/opt/telephony/
+bc4d43fb5 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/support/
+df8fb685f3 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/LiquidLounge/
+9266bc4 lounge: Fix Lockscreen clock values [2/2]
+9b0b013 Allow to suppress notifications sound/vibration if screen is On [2/2]
+78160f3 Add VOLTE icon toggle [2/2]
+060a423 Ambient : Hide AOD if config_dozeAlwaysOnDisplayAvailable is false
+715c115 Cleanup brightness slider toggle [2/2]
+
+   * hardware/interfaces/
+932c147c Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Settings/
+420f975291 Themes: Settings: Fix theming  zoom preview timestamp text color
+f31d6f4957 Themes: Settings: expose msim color picker text colors
+feedd0b154 Themes: Settings: Expose storage summary text
+7c458c9302 Themes: Settings: Expose storage icon colors
+b7dc6b4a9c Manage storage button is not showing in storage settings
+2fe1a4abcf Settings: Introduce Substratum changes.
+67ae32f446 Fix a crash when launching app detail for bad package name
+dfa6bc6991 Move content later button doesn't work on Migration Wizard
+6e012a5a22 Fix pattern grid sizes
+56424f754e Fix Sim dialog
+d2dd564f55 DoubletapPowerForCamera disabled by default [1/2]
+a3f1dcd62f Allow dismiss notifications with FP left/right swipe [2/2]
+db31e120a2 Allow to set a full gesture navbar (swipe left for back action) [2/2]
+5e77fbf665 Tint suggestion icons to match system accent
+746b8cece7 Center the suggestion text and icon
+a4a0d4ab4d settings: Remove IMEI explicit info
+8be7be1ebe fuelgauge: Display Portrait styled battery
+
+   * packages/apps/Bluetooth/
+8ad1467e Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Contacts/
+0fd5bb34e Merge tag 'android-9.0.0_r16' into pie
+
+   * system/sepolicy/
+be65ce58 Add sdcard_posfix to the compatibility mapping
+9314eff7 Android.mk: Remove the inconsequential warning
+30676fd5 tee_listener isnt global
+a7d77406 p subs integration test
+f6ebd1ca sepolicy: address denials related to recovery and first boot
+a2029e27 Implement sepolicy rules for substratum theming in p release
+4cc21da3 Introduce sepolicy exceptions for theme assets
+803aa6bb sepolicy: fix neverallow
+1734f636 Initial sepolicy rules for substratum service
+
+   * packages/apps/PackageInstaller/
+447cd9d3 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/PhoneCommon/
+1929e60 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/SettingsIntelligence/
+16f2b67 Increase time limit of search task
+4c7df8c SettingsIntelligence: Regen database on build version change
+dd8cb86 SettingsIntelligence: Match Settings style
+beec45c SettingsIntelligence: fix search panel bg color for correct themeing
+
+   * packages/inputmethods/LatinIME/
+9e066e688 Merge tag 'android-9.0.0_r16' into pie
+f66dced01 LatinIME: sync and rebuild emojis
+657988370 LatinIME: Add shortcuts support
+f95be5135 LatinIME: Disable Hungarian spell checking
+d0f6789b0 LatinIME: Add Luxembourgish keyboard & spellchecking dictionary
+
+   * packages/providers/DownloadProvider/
+fa189ce Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/providers/MediaProvider/
+7d5ad93 Merge tag 'android-9.0.0_r16' into pie
+eecab7c MediaProvider: Add read storage permission
+
+   * packages/services/Telephony/
+14d0d0fbc Merge tag 'android-9.0.0_r16' into pie
+
+   * vendor/liquid/
+0df61de3 Add Substratum Signature
+
+=======================
+     11-09-2018
+=======================
+
+
+   * system/bt/
+8e2ed37e6 Merge tag 'android-9.0.0_r16' into pie
+6cdfd0296 Fix "Disable Absolute Volume" Bluetooth developer option
+d95a21209 Run the wakelock JNI callbacks on the JNI thread
+80b2c800a Fix out-of-bounds reading in btm_ble_vendor_capability_vsc_cmpl_cback
+
+   * system/core/
+49ed806b5 libion: save errno value
+8ab921a87 healthd: BatteryMonitor: Fix compiler warning
+
+   * system/sepolicy/
+5fe552ac Merge tag 'android-9.0.0_r16' into pie
+d365227c Build sepolicy tools with Android.bp.
+c634f451 Fix issue that ro.telephony.default_network can't be read per slot
+c616b5d9 Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1
+68e9582a Allow to read events/header_page with debugfs_tracing
+00a4fcb3 sepolicy: New type sdcard_posix for labeled filesystems
+
+   * system/vold/
+cbc9853 Merge tag 'android-9.0.0_r16' into pie
+
+   * vendor/liquid/
+118a77b6 vendor: disable adb auth on userdebug builds
+3221ea0e sensitive_pn: General update + new Bulgarian phone numbers
+dfe53b9b kernel: Remove deprecated flag errors
+4e5cf443 kernel: Correct CROSS_COMPILE_ARM32 toolchain
+27f8e30a RJIO: Change Roaming protocal to IPV4V6.
+ad753d2c apns: update RJIO APNs
+0959ba8f overlay: Remove config_persistUsbDriveNotification
+ac4e3330 apns: NOS: fix tethering and mms.
+
+=======================
+     11-06-2018
+=======================
+
+
+   * hardware/broadcom/libbt/
+f08b665 libbt: Make sure that we don't load pre-patch when looking for patch
+
+   * kernel/google/wahoo/
+ac58626c4e1e Merge branches '4.9-eas', 'ion-msm-4.4', 'sdcardfs-updates' and 'zram-kernel-common' into pie-qpr1
+
+   * packages/services/Telecomm/
+f75874c3 Merge tag 'android-9.0.0_r16' into pie
+
+   * hardware/qcom/display-caf/msm8996/
+2fc2283ac hwc2: Dont build vendor.display.config with _vendor suffix
+
+   * kernel/google/wahoo/
+c759277c4947 ANDROID: sdcardfs: Add option to drop unused dentries
+
+=======================
+     11-08-2018
+=======================
+
+
+   * system/core/
+c1a880011 Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/platform//system/core into HEAD
+
+=======================
+     11-05-2018
+=======================
+
+
+   * frameworks/base/
+0de7814ae90 Fixes crash when getting panel before setting components
+5eee6a15888 SystemUI: don't add already attached qs tile views
+38960b94aa0 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Dialer/
+2f60259fb res: Fix malformed XML
+ca425b616 Allow call recording for Bulgaria.
+82e080c53 Allow call recording for Belgium
+b286b3865 Allow call recording for Austria
+
+   * packages/apps/Jelly/
+f44d547 Jelly: Fix shortcut creation for websites without favicon
+
+   * packages/apps/Settings/
+d72cd0cf3a Merge tag 'android-9.0.0_r16' into pie
+
+   * hardware/qcom/display/
+ae340ef9e msm8084: Use generated kernel headers
+17eb67a24 msm8084: display: Don't use gnu-oldstyle field designators
+65f6d18f6 msm8084: Add additional build flags to avoid errors
+4350ca3c5 msm8084: Use libhwui.so instead of libskia.so
+fce1c7014 msm8084: Include what we use.
+980c6234d hwc: msm8084: Set ioprio for vsync thread
+
+   * hardware/qcom/fm/
+3b8058f fm: Drop unnecessary dependencies
+
+   * kernel/google/wahoo/
+8fc8c68940d2 Merge branch 'pie-qpr1' of https://github.com/nathanchance/wahoo into pie
+ff75633a6908 Merge remote-tracking branch 'als/android-msm-wahoo-4.4' into pie-qpr1
+fea87e611e67 Merge tag 'android-9.0.0_r0.37' into android-msm-wahoo-4.4
+8df8a33e1872 Merge branch 'caf-updates-11300' into pie-r2
+c0acf5552e0a Merge branches 'crash-fix-for-real-i-think' and 'sultan-rice' into pie-r2
+
+=======================
+     11-07-2018
+=======================
+
+   * art/
+cf12ba8711 build: disable ART debugging
+
+   * bionic/
+4aefc3ffb Merge tag 'android-9.0.0_r16' into pie
+3edf560f3 Revert "linker: Make platform text relocations denial optional"
+a66782622 bionic: Use legacy pthread_mutex_init() behavior on pre-P API levels
+
+   * build/make/
+6f2da9cd0 Merge tag 'android-9.0.0_r16' into pie
+ce7276d70 dex2oat: disable multithreading for WSL
+4731e9f1f Add detection for WSL
+e4f0e20f6 core_base: Remove libnfc_ndef from PRODUCT_PACKAGES
+9f8b53c89 Add PRODUCT_USE_LOGICAL_PARTITIONS
+
+   * device/google/taimen/
+f3fbf6a Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/device/google/taimen into pie
+1d20f76 taimen: update fingerprint PQ1A.181105.017.A1
+
+   * device/google/wahoo/
+b597137 Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/device/google/wahoo into pie
+
+   * device/qcom/sepolicy/
+4a6635ae sepolicy: Allow perf HAL to set freq props
+
+   * vendor/liquid/
+0883402e Revert "vendor: add round ui dimensions overlay"
+d5a6642b Revert "add rounded recents overlay"
+
+=======================
+     11-04-2018
+=======================
+
+
+   * device/google/wahoo/
+3228d1e Switch to clang 8.0.3
+
+   * external/perfetto/
+7690fb4f Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/av/
+d51f0d27d Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/native/
+bf9e87117 Merge tag 'android-9.0.0_r16' into pie
+967cac4ee Add vendor version for libgui
+
+   * frameworks/opt/net/ims/
+abfded4 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/opt/net/wifi/
+4ae5b2410 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/opt/telephony/
+bc4d43fb5 Merge tag 'android-9.0.0_r16' into pie
+
+   * frameworks/support/
+df8fb685f3 Merge tag 'android-9.0.0_r16' into pie
+
+   * hardware/interfaces/
+932c147c Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Bluetooth/
+8ad1467e Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/Contacts/
+0fd5bb34e Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/PackageInstaller/
+447cd9d3 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/PhoneCommon/
+1929e60 Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/apps/SettingsIntelligence/
+16f2b67 Increase time limit of search task
+4c7df8c SettingsIntelligence: Regen database on build version change
+dd8cb86 SettingsIntelligence: Match Settings style
+beec45c SettingsIntelligence: fix search panel bg color for correct themeing
+
+   * packages/inputmethods/LatinIME/
+9e066e688 Merge tag 'android-9.0.0_r16' into pie
+f66dced01 LatinIME: sync and rebuild emojis
+657988370 LatinIME: Add shortcuts support
+f95be5135 LatinIME: Disable Hungarian spell checking
+d0f6789b0 LatinIME: Add Luxembourgish keyboard & spellchecking dictionary
+
+   * packages/providers/DownloadProvider/
+fa189ce Merge tag 'android-9.0.0_r16' into pie
+
+   * packages/providers/MediaProvider/
+7d5ad93 Merge tag 'android-9.0.0_r16' into pie
+eecab7c MediaProvider: Add read storage permission
+
+   * packages/services/Telephony/
+14d0d0fbc Merge tag 'android-9.0.0_r16' into pie
+
+   * system/bt/
+8e2ed37e6 Merge tag 'android-9.0.0_r16' into pie
+6cdfd0296 Fix "Disable Absolute Volume" Bluetooth developer option
+d95a21209 Run the wakelock JNI callbacks on the JNI thread
+80b2c800a Fix out-of-bounds reading in btm_ble_vendor_capability_vsc_cmpl_cback
+
+   * system/core/
+49ed806b5 libion: save errno value
+8ab921a87 healthd: BatteryMonitor: Fix compiler warning
+
+   * system/sepolicy/
+5fe552ac Merge tag 'android-9.0.0_r16' into pie
+d365227c Build sepolicy tools with Android.bp.
+c634f451 Fix issue that ro.telephony.default_network can't be read per slot
+c616b5d9 Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1
+68e9582a Allow to read events/header_page with debugfs_tracing
+00a4fcb3 sepolicy: New type sdcard_posix for labeled filesystems
+
+   * system/vold/
+cbc9853 Merge tag 'android-9.0.0_r16' into pie
+
+   * vendor/liquid/
+118a77b6 vendor: disable adb auth on userdebug builds
+3221ea0e sensitive_pn: General update + new Bulgarian phone numbers
+dfe53b9b kernel: Remove deprecated flag errors
+4e5cf443 kernel: Correct CROSS_COMPILE_ARM32 toolchain
+27f8e30a RJIO: Change Roaming protocal to IPV4V6.
+ad753d2c apns: update RJIO APNs
+0959ba8f overlay: Remove config_persistUsbDriveNotification
+ac4e3330 apns: NOS: fix tethering and mms.
+
+=======================
+     11-06-2018
+=======================
+
+
+=======================
+     11-03-2018
+=======================
+
+
+   * hardware/qcom/display-caf/msm8996/
+2fc2283ac hwc2: Dont build vendor.display.config with _vendor suffix
+
+   * kernel/google/wahoo/
+c759277c4947 ANDROID: sdcardfs: Add option to drop unused dentries
+
+   * system/core/
+c1a880011 Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/platform//system/core into HEAD
+
+=======================
+     11-05-2018
+=======================
+
+
+=======================
+     11-02-2018
+=======================
+
+
+   * device/google/wahoo/
+0c45f3d CarrierConfig: Enable VoLTE and VoWiFi on Maroc Telecom
+
+   * hardware/qcom/display/
+ae340ef9e msm8084: Use generated kernel headers
+17eb67a24 msm8084: display: Don't use gnu-oldstyle field designators
+65f6d18f6 msm8084: Add additional build flags to avoid errors
+4350ca3c5 msm8084: Use libhwui.so instead of libskia.so
+fce1c7014 msm8084: Include what we use.
+980c6234d hwc: msm8084: Set ioprio for vsync thread
+
+   * hardware/qcom/fm/
+3b8058f fm: Drop unnecessary dependencies
+
+   * kernel/google/wahoo/
+8fc8c68940d2 Merge branch 'pie-qpr1' of https://github.com/nathanchance/wahoo into pie
+ff75633a6908 Merge remote-tracking branch 'als/android-msm-wahoo-4.4' into pie-qpr1
+fea87e611e67 Merge tag 'android-9.0.0_r0.37' into android-msm-wahoo-4.4
+8df8a33e1872 Merge branch 'caf-updates-11300' into pie-r2
+c0acf5552e0a Merge branches 'crash-fix-for-real-i-think' and 'sultan-rice' into pie-r2
+
+   * vendor/liquid/
+0883402e Revert "vendor: add round ui dimensions overlay"
+d5a6642b Revert "add rounded recents overlay"
+
+=======================
+     11-04-2018
+=======================
+
+
+   * device/google/wahoo/
+3228d1e Switch to clang 8.0.3
+
+   * vendor/qcom/opensource/audio/
+245fdbe Merge tag 'LA.UM.7.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into lineage-16.0
+
+
+=======================
+     11-03-2018
+=======================
+
+
+=======================
+     11-02-2018
+=======================
+
+
+   * device/google/wahoo/
+0c45f3d CarrierConfig: Enable VoLTE and VoWiFi on Maroc Telecom
+
+   * vendor/qcom/opensource/audio/
+245fdbe Merge tag 'LA.UM.7.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into lineage-16.0
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Official>
+        <taimen>
+            <Filename>liquid_remix-10.0.1-20181112-OFFICIAL-taimen.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="LiquidRemix"
+                description="Download latest build for taimen">https://androidfilehost.com/?fid=11410963190603844868</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="Click here to view latest changes">https://raw.githubusercontent.com/LiquidRemix-Devices/LROTA/pie/Changelogs/taimen/10.0.1-20181112-OFFICIAL-taimen-Changelog.txt</ChangelogUrl>
+        </taimen>
+    </Official>
+</SlimOTA>
