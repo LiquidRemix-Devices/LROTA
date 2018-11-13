@@ -1,7 +1,7 @@
-Liquid Remix 10.0.1-20181031-OFFICIAL for Asus Zenfone Max Pro M1
+Liquid Remix 10.0.1-20181113-OFFICIAL for Asus Zenfone Max Pro M1
 
 - Upstream updates from Liquid Remix source
-- Synced with OTA 334
-- Merge kernel with latest CAF tag
-- Fix fingerprint issue & idle drain
+- Rebase kernel from KudProject's kernel tree
+- Merge kernel with latest CAF and Android Linux Stable tag
+- Update some blobs from Xiaomi Mi A2
 - Some optimizations and bugfixes
