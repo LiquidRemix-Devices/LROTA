@@ -2,15 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Official>
         <x00td>
-            <Filename>10.0.1-20181113-OFFICIAL-X00TD.zip</Filename>
+            <Filename>10.0.2-20181128-OFFICIAL-X00T.zip</Filename>
             <RomUrl
                 id="rom"
                 title="LiquidRemix"
-                description="Download latest build for x00td">https://sourceforge.net/projects/liquidremix-x00td/files/10.0/liquid_remix-10.0.1-20181113-OFFICIAL-X00TD.zip/download</RomUrl>
-            <MirrorUrl
-                id="rom"
-                title="LiquidRemix"
-                description="Mirror download latest build for x00td">https://www.androidfilehost.com/?fid=11410963190603845720</MirrorUrl>
+                description="Download latest build for x00td">https://sourceforge.net/projects/liquidremix-x00td/files/10.0/liquid_remix-10.0.2-20181128-OFFICIAL-X00T.zip/download</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
