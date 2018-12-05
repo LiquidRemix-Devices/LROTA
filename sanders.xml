@@ -2,15 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Official>
         <sanders>
-            <Filename>10.0.0-20181005-OFFICIAL-sanders.zip</Filename>
+            <Filename>10.0.2-20181204-OFFICIAL-sanders.zip</Filename>
             <RomUrl
                 id="rom"
                 title="LiquidRemix"
-                description="Download latest build for sanders"> https://www.androidfilehost.com/?fid=1322778262904020771</RomUrl>
+                description="Download latest build for sanders">https://sourceforge.net/projects/sandersbuilds/files/Liquid/liquid_remix-10.0.2-20181204-OFFICIAL-sanders.zip/download</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="Click here to view latest changes">https://del.dog/agewezajow.coffeescript</ChangelogUrl>
+                description="Click here to view latest changes">https://del.dog/ocicalexiq.coffeescript</ChangelogUrl>
             <OpenGappsUrl
             	id="open_gapps"
             	title="OpenGApps"
