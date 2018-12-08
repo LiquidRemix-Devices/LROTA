@@ -1,20 +1,11 @@
-Liquid Remix 10.0.2-20181128-OFFICIAL for Asus Zenfone Max Pro M1
+Liquid Remix 10.0.2-20181208-OFFICIAL for Asus Zenfone Max Pro M1
 
-* Fix wallpaper bug
-* Fix qs edit page background on dark/black themes
-* Fix no ringtone chooser for 2nd sim
-* Updates for privacy guard
-* Recent styles
-* More options for lockscreen clock and date (style, size etc.)
-* More options for gestures (aosp, carbon , app circle bar etc.)
-* New dope QS styles
-* QS header styles
-* Notification theme
-* User configurable rounded corners and padding
-* Now playing history
-Device specific
-- Synced to OTA 337
-- Fixed autorotate & FM Radio thanks to Solienatic
-- Fixed stereo audio output thanks to KrasCGQ
-- Kernel merged with latest linux and caf tag
-- Removed spectrum support (giving a space to kernel dev for tuning their own value)
+- Android 9.0-r21 with December security patch
+- Added font service
+- Added Liquid Wallpapers
+- Added recent icon style
+- Added smart navigation bar
+- Added breathing notification on status bar
+- Re-enabled icon pack settings on launcher
+- Removed browser application
+- Some bugfixes and optimizations
