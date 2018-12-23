@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Official>
         <x00td>
-            <Filename>10.0.2-20181208-OFFICIAL-X00T.zip</Filename>
+            <Filename>10.0.3-20181222-OFFICIAL-X00T.zip</Filename>
             <RomUrl
                 id="rom"
                 title="LiquidRemix"
-                description="Download latest build for x00td">https://sourceforge.net/projects/liquidremix-x00td/files/10.0/liquid_remix-10.0.2-20181208-OFFICIAL-X00T.zip/download</RomUrl>
+                description="Download latest build for x00td">https://sourceforge.net/projects/liquid-remix/files/x00t/liquid_remix-10.0.3-20181222-OFFICIAL-X00T.zip/download</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"

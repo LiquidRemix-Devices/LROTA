@@ -1,11 +1,14 @@
-Liquid Remix 10.0.2-20181208-OFFICIAL for Asus Zenfone Max Pro M1
+Liquid Remix 10.0.2-20181222-OFFICIAL for Asus Zenfone Max Pro M1
 
-- Android 9.0-r21 with December security patch
-- Added font service
-- Added Liquid Wallpapers
-- Added recent icon style
-- Added smart navigation bar
-- Added breathing notification on status bar
-- Re-enabled icon pack settings on launcher
-- Removed browser application
-- Some bugfixes and optimizations
+- Fix network traffic monitor type
+- Updated stock Launcher
+- Fix settings fc on network traffic monitor toggle
+- Allow devices to override volume panel position
+- Panel Porn : Power menu alpha and dim
+- Toggle for screenshot/screenrecord
+- Remove now playing
+- Update gesture anywhere position
+- Bring back aosp home gestures
+- Option to use accent color for pulse
+- Upstream kernel
+- Synced with Asus FOTA 338
