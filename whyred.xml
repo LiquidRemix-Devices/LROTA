@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Official>
         <whyred>
-            <Filename>10.0.1-20181113-OFFICIAL-whyred.zip</Filename>
+            <Filename>10.0.3-20181224-OFFICIAL-whyred.zip</Filename>
             <RomUrl
                 id="rom"
                 title="LiquidRemix"
