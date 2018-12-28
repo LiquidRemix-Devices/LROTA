@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Official>
-        <x00td>
+        <X00T>
             <Filename>10.0.3-20181222-OFFICIAL-X00T.zip</Filename>
             <RomUrl
                 id="rom"
@@ -15,6 +15,6 @@
             	id="open_gapps"
             	title="OpenGApps"
             	description="Download latest OpenGApps for Android Pie">https://opengapps.org</OpenGappsUrl>
-        </x00td>
+        </X00T>
     </Official>
 </SlimOTA>
