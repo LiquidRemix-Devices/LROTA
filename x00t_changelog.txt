@@ -1,14 +1,28 @@
-Liquid Remix 10.0.2-20181222-OFFICIAL for Asus Zenfone Max Pro M1
+Liquid Remix 10.0.4-20190111-OFFICIAL for Asus Zenfone Max Pro M1
 
-- Fix network traffic monitor type
-- Updated stock Launcher
-- Fix settings fc on network traffic monitor toggle
-- Allow devices to override volume panel position
-- Panel Porn : Power menu alpha and dim
-- Toggle for screenshot/screenrecord
-- Remove now playing
-- Update gesture anywhere position
-- Bring back aosp home gestures
-- Option to use accent color for pulse
-- Upstream kernel
-- Synced with Asus FOTA 338
+General Changes :
+- January security patch
+- Ambient visualizer
+- Lockscreen clock and date styles
+- Network traffic location
+- QS Panel transparency
+- Set screenrecord quality from LiquidLounge
+- Add default usb configuration
+- QS theme
+- Added custom switch styles
+- Automatic notification style
+- Oneplus dashboard icons
+- UI Styles
+- Fixed screen pinning
+- Fixed liquid logo not showing
+- Fixed carrier label not showing
+- Fixed dt2s on status bar
+- Fixed signature spoofing
+- Added back auto brightness toggle to QS
+- And many more
+
+Device Changes :
+- Added Zenmotions and Snapdragon Camera from Stock ROM (thanks to SagarMakhar)
+- Added Zenfone Parts (some additional configuration)
+- Kernel updated and optimized
+- Fixed links didn't show up on Liquid OTA

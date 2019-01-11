@@ -2,15 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Official>
         <X00T>
-            <Filename>10.0.3-20181222-OFFICIAL-X00T.zip</Filename>
+            <Filename>10.0.4-20190111-OFFICIAL-X00T.zip</Filename>
             <RomUrl
                 id="rom"
                 title="LiquidRemix"
-                description="Download latest build for x00td">https://sourceforge.net/projects/liquid-remix/files/x00t/liquid_remix-10.0.3-20181222-OFFICIAL-X00T.zip/download</RomUrl>
+                description="Download latest build for Zenfone Max Pro (M1)">https://sourceforge.net/projects/liquid-remix/files/x00t/liquid_remix-10.0.4-20190111-OFFICIAL-X00T.zip/download</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="Click here to view latest changes">https://raw.githubusercontent.com/LiquidRemix-Devices/LROTA/pie/x00td_changelog.txt</ChangelogUrl>
+                description="Click here to view latest changes">https://raw.githubusercontent.com/LiquidRemix-Devices/LROTA/pie/x00t_changelog.txt</ChangelogUrl>
             <OpenGappsUrl
             	id="open_gapps"
             	title="OpenGApps"
